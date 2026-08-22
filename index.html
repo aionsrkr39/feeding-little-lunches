@@ -1,0 +1,890 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Feeding Littles Lunches — 75+ No-Stress Lunches Everyone Will Love</title>
+<meta name="description" content="75+ realistic, no-stress lunch and snack ideas for kids of all ages — from the NYT bestselling authors of Feeding Littles.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,500;0,9..144,600;0,9..144,700;1,9..144,500&family=Figtree:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --cream: #FBF5E9;
+    --cream-2: #F3ECDC;
+    --teal-deep: #204F49;
+    --teal: #2F6E68;
+    --teal-soft: #DCEAE6;
+    --coral: #E7623B;
+    --coral-dark: #C94F2C;
+    --yellow: #F4C24A;
+    --ink: #26302B;
+    --ink-soft: #5B655F;
+    --line: #DCD3BE;
+    --white: #FFFDF8;
+    --radius-lg: 28px;
+    --radius-md: 18px;
+    --radius-sm: 10px;
+    --shadow: 0 14px 32px -18px rgba(32, 79, 73, 0.35);
+    --maxw: 1180px;
+  }
+
+  *{box-sizing:border-box;}
+  html{scroll-behavior:smooth;}
+  body{
+    margin:0;
+    background:var(--cream);
+    color:var(--ink);
+    font-family:'Figtree', sans-serif;
+    font-size:17px;
+    line-height:1.6;
+    -webkit-font-smoothing:antialiased;
+  }
+  h1,h2,h3,.display{
+    font-family:'Fraunces', serif;
+    font-weight:600;
+    color:var(--teal-deep);
+    line-height:1.08;
+    letter-spacing:-0.01em;
+    margin:0;
+  }
+  p{margin:0;}
+  a{color:inherit;}
+  img{max-width:100%;display:block;}
+  ul{margin:0;padding:0;}
+  .wrap{max-width:var(--maxw); margin:0 auto; padding:0 24px;}
+  section{position:relative;}
+
+  /* -------- utility -------- */
+  .eyebrow{
+    display:inline-flex;
+    align-items:center;
+    gap:8px;
+    font-family:'Figtree',sans-serif;
+    font-weight:700;
+    font-size:13px;
+    letter-spacing:0.09em;
+    text-transform:uppercase;
+    color:var(--coral-dark);
+    background:rgba(231,98,59,0.1);
+    padding:7px 14px 7px 12px;
+    border-radius:999px;
+    margin-bottom:18px;
+  }
+  .eyebrow.alt{color:var(--teal-deep); background:rgba(32,79,73,0.09);}
+  .eyebrow .dot{width:6px;height:6px;border-radius:50%;background:currentColor;display:inline-block;}
+
+  .btn{
+    display:inline-flex;
+    align-items:center;
+    justify-content:center;
+    gap:10px;
+    font-family:'Figtree',sans-serif;
+    font-weight:700;
+    font-size:16.5px;
+    padding:16px 30px;
+    border-radius:999px;
+    text-decoration:none;
+    border:2px solid transparent;
+    cursor:pointer;
+    transition: transform .18s ease, box-shadow .18s ease, background .18s ease;
+    white-space:nowrap;
+  }
+  .btn-primary{
+    background:var(--coral);
+    color:var(--white);
+    box-shadow: 0 12px 26px -10px rgba(201,79,44,0.55);
+  }
+  .btn-primary:hover{ background:var(--coral-dark); transform:translateY(-2px); box-shadow:0 16px 30px -10px rgba(201,79,44,0.6);}
+  .btn-outline{
+    background:transparent;
+    color:var(--teal-deep);
+    border-color:var(--teal-deep);
+  }
+  .btn-outline:hover{ background:var(--teal-deep); color:var(--white); transform:translateY(-2px);}
+  .btn-sub{
+    display:block;
+    font-size:12.5px;
+    font-weight:600;
+    color:var(--ink-soft);
+    margin-top:10px;
+    text-align:center;
+  }
+
+  .fade-in{
+    opacity:0;
+    transform:translateY(22px);
+    transition:opacity .7s ease, transform .7s ease;
+  }
+  .fade-in.is-visible{opacity:1; transform:translateY(0);}
+
+  /* -------- media placeholders -------- */
+  .media-ph{
+    width:100%;
+    border-radius:var(--radius-lg);
+    background:linear-gradient(150deg, var(--teal-soft), #EFE6CE);
+    border:1.5px dashed rgba(32,79,73,0.35);
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    overflow:hidden;
+    position:relative;
+  }
+  .media-ph.r169{ aspect-ratio:16/9; }
+  .media-ph.r11{ aspect-ratio:1/1; }
+  .media-ph .ph-inner{
+    text-align:center;
+    padding:20px;
+    color:var(--teal-deep);
+  }
+  .media-ph .ph-icon{
+    width:52px;height:52px;margin:0 auto 12px;
+    border-radius:50%;
+    background:var(--white);
+    display:flex;align-items:center;justify-content:center;
+    box-shadow:var(--shadow);
+  }
+  .media-ph .ph-label{font-weight:700; font-size:15px;}
+  .media-ph .ph-sub{font-size:12.5px; color:var(--ink-soft); margin-top:4px; max-width:280px; margin-left:auto; margin-right:auto;}
+
+  /* -------- top bar -------- */
+  .topbar{
+    padding:16px 0;
+    border-bottom:1px solid var(--line);
+    background:var(--cream);
+  }
+  .topbar .wrap{display:flex; align-items:center; justify-content:space-between; gap:16px;}
+  .brand{
+    font-family:'Fraunces',serif;
+    font-weight:600;
+    font-size:20px;
+    color:var(--teal-deep);
+    display:flex; align-items:center; gap:10px;
+  }
+  .brand .mark{
+    width:34px;height:34px;border-radius:9px;
+    background:var(--teal-deep);
+    display:flex;align-items:center;justify-content:center;
+    color:var(--yellow); font-size:17px;
+  }
+  .topbar .btn{padding:11px 22px; font-size:14.5px;}
+
+  /* -------- hero -------- */
+  .hero{padding:64px 0 40px;}
+  .hero-grid{
+    display:grid;
+    grid-template-columns: 1.05fr 0.95fr;
+    gap:56px;
+    align-items:center;
+  }
+  .hero h1{font-size:44px;}
+  .hero .accent{color:var(--coral);}
+  .hero .sub{
+    font-size:18px;
+    color:var(--ink-soft);
+    margin-top:20px;
+    max-width:520px;
+  }
+  .hero .cta-row{margin-top:32px; display:flex; flex-direction:column; align-items:flex-start;}
+  .badges-row{
+    display:flex; flex-wrap:wrap; gap:10px 22px;
+    margin-top:28px;
+  }
+  .badge-item{
+    display:flex; align-items:center; gap:8px;
+    font-size:13.5px; font-weight:600; color:var(--teal-deep);
+  }
+  .badge-item .stars{color:var(--yellow); letter-spacing:1px;}
+
+  /* -------- problem -------- */
+  .problem{padding:70px 0; background:var(--teal-deep); color:var(--cream);}
+  .problem h2{color:var(--white); font-size:34px; max-width:620px;}
+  .problem .lede{color:rgba(251,245,233,0.82); font-size:17.5px; max-width:600px; margin-top:16px;}
+  .problem-grid{
+    display:grid;
+    grid-template-columns:repeat(4,1fr);
+    gap:22px;
+    margin-top:42px;
+  }
+  .problem-card{
+    background:rgba(251,245,233,0.06);
+    border:1px solid rgba(251,245,233,0.16);
+    border-radius:var(--radius-md);
+    padding:26px 24px;
+  }
+  .problem-card .num{
+    font-family:'Fraunces',serif;
+    font-size:15px;
+    color:var(--yellow);
+    font-weight:600;
+    margin-bottom:10px;
+    display:block;
+  }
+  .problem-card p{font-size:15.5px; color:rgba(251,245,233,0.9);}
+
+  /* -------- solution -------- */
+  .solution{padding:84px 0;}
+  .solution-grid{
+    display:grid;
+    grid-template-columns:0.95fr 1.05fr;
+    gap:60px;
+    align-items:center;
+  }
+  .solution h2{font-size:33px; max-width:480px;}
+  .solution .lede{margin-top:18px; color:var(--ink-soft); font-size:17px; max-width:480px;}
+  .authors-line{
+    margin-top:26px;
+    display:flex;
+    gap:16px;
+    flex-wrap:wrap;
+  }
+  .author-pill{
+    display:flex;align-items:center;gap:10px;
+    background:var(--white);
+    border:1px solid var(--line);
+    border-radius:999px;
+    padding:8px 16px 8px 8px;
+  }
+  .author-pill .avatar{
+    width:36px;height:36px;border-radius:50%;
+    background:var(--teal-soft);
+    display:flex;align-items:center;justify-content:center;
+    color:var(--teal-deep); font-weight:700; font-family:'Fraunces',serif;
+  }
+  .author-pill .a-name{font-size:13.5px; font-weight:700; color:var(--teal-deep); display:block;}
+  .author-pill .a-title{font-size:11.5px; color:var(--ink-soft);}
+
+  .quote-block{
+    margin-top:30px;
+    background:var(--teal-soft);
+    border-left:4px solid var(--teal);
+    border-radius:0 var(--radius-md) var(--radius-md) 0;
+    padding:22px 26px;
+  }
+  .quote-block p{font-family:'Fraunces',serif; font-style:italic; font-size:18px; color:var(--teal-deep); line-height:1.45;}
+  .quote-block .who{margin-top:12px; font-family:'Figtree',sans-serif; font-style:normal; font-size:13px; font-weight:700; color:var(--ink-soft); letter-spacing:0.02em;}
+
+  /* -------- benefits -------- */
+  .benefits{padding:20px 0 90px; background:var(--cream-2);}
+  .benefits-head{max-width:640px; margin:0 auto 48px; text-align:center;}
+  .benefits-head h2{font-size:34px;}
+  .benefits-head p{margin-top:14px; color:var(--ink-soft); font-size:17px;}
+  .tray{
+    display:grid;
+    grid-template-columns:repeat(3,1fr);
+    gap:18px;
+  }
+  .cell{
+    background:var(--white);
+    border:2px solid var(--teal-deep);
+    border-radius:22px;
+    padding:28px 24px;
+    position:relative;
+    overflow:hidden;
+  }
+  .cell::after{
+    content:"";
+    position:absolute; inset:6px;
+    border:1.5px solid rgba(32,79,73,0.15);
+    border-radius:16px;
+    pointer-events:none;
+  }
+  .cell .icon{
+    width:48px;height:48px;border-radius:14px;
+    background:var(--yellow);
+    display:flex;align-items:center;justify-content:center;
+    font-size:22px;
+    margin-bottom:16px;
+  }
+  .cell h3{font-size:19px; color:var(--teal-deep);}
+  .cell p{margin-top:10px; font-size:14.8px; color:var(--ink-soft);}
+  .cell:nth-child(2) .icon, .cell:nth-child(5) .icon{background:var(--coral); color:var(--white);}
+  .cell:nth-child(3) .icon, .cell:nth-child(6) .icon{background:var(--teal); color:var(--white);}
+
+  /* -------- how it works -------- */
+  .how{padding:90px 0;}
+  .how-grid{
+    display:grid;
+    grid-template-columns:1fr 1fr;
+    gap:60px;
+    align-items:start;
+  }
+  .how h2{font-size:33px; max-width:460px;}
+  .how .lede{margin-top:16px; color:var(--ink-soft); font-size:17px; max-width:460px;}
+  .steps{margin-top:6px;}
+  .step{
+    display:flex; gap:18px;
+    padding:22px 0;
+    border-bottom:1px solid var(--line);
+  }
+  .step:first-child{padding-top:0;}
+  .step .s-num{
+    font-family:'Fraunces',serif;
+    font-size:15px; font-weight:600;
+    color:var(--teal-deep);
+    background:var(--teal-soft);
+    width:38px;height:38px;border-radius:50%;
+    display:flex;align-items:center;justify-content:center;
+    flex-shrink:0;
+  }
+  .step h3{font-size:17.5px;}
+  .step p{margin-top:6px; font-size:14.8px; color:var(--ink-soft);}
+  .format-note{
+    margin-top:26px;
+    display:flex; gap:14px; flex-wrap:wrap;
+  }
+  .format-pill{
+    font-size:13px; font-weight:700; color:var(--teal-deep);
+    background:var(--white); border:1px solid var(--line);
+    padding:8px 16px; border-radius:999px;
+  }
+
+  /* -------- social proof -------- */
+  .proof{padding:90px 0; background:var(--teal-soft);}
+  .proof-top{
+    display:flex; justify-content:space-between; align-items:flex-end; flex-wrap:wrap; gap:24px;
+    margin-bottom:44px;
+  }
+  .proof h2{font-size:32px; max-width:480px;}
+  .rating-box{
+    background:var(--white);
+    border-radius:var(--radius-md);
+    padding:20px 26px;
+    display:flex; align-items:center; gap:18px;
+    box-shadow:var(--shadow);
+  }
+  .rating-box .score{font-family:'Fraunces',serif; font-size:38px; color:var(--teal-deep); font-weight:600;}
+  .rating-box .stars{color:var(--yellow); letter-spacing:2px; font-size:18px;}
+  .rating-box .count{font-size:12.5px; color:var(--ink-soft); margin-top:2px;}
+
+  .proof-grid{
+    display:grid;
+    grid-template-columns:repeat(3,1fr);
+    gap:20px;
+  }
+  .review-card{
+    background:var(--white);
+    border-radius:var(--radius-md);
+    padding:26px;
+    box-shadow:var(--shadow);
+  }
+  .review-card .stars{color:var(--yellow); font-size:15px; letter-spacing:1.5px;}
+  .review-card h3{font-size:16.5px; margin-top:10px; color:var(--teal-deep);}
+  .review-card p{margin-top:10px; font-size:14.3px; color:var(--ink-soft);}
+  .review-card .meta{margin-top:14px; font-size:12px; color:var(--ink-soft); font-weight:700;}
+
+  /* -------- pricing -------- */
+  .pricing{padding:90px 0;}
+  .pricing-head{text-align:center; max-width:600px; margin:0 auto 44px;}
+  .pricing-head h2{font-size:33px;}
+  .pricing-head p{margin-top:14px; color:var(--ink-soft); font-size:17px;}
+  .price-grid{
+    display:grid;
+    grid-template-columns:1fr 1fr;
+    gap:26px;
+    max-width:820px;
+    margin:0 auto;
+  }
+  .price-card{
+    background:var(--white);
+    border:2px solid var(--line);
+    border-radius:var(--radius-lg);
+    padding:34px 30px;
+    text-align:center;
+    transition:border-color .2s ease, transform .2s ease;
+  }
+  .price-card.featured{
+    border-color:var(--coral);
+    position:relative;
+  }
+  .price-card.featured::before{
+    content:"MOST POPULAR";
+    position:absolute; top:-13px; left:50%; transform:translateX(-50%);
+    background:var(--coral); color:var(--white);
+    font-size:11px; font-weight:800; letter-spacing:0.06em;
+    padding:5px 14px; border-radius:999px;
+  }
+  .price-card h3{font-size:19px; color:var(--teal-deep);}
+  .price-row{margin:18px 0 6px; display:flex; align-items:baseline; justify-content:center; gap:10px;}
+  .price-now{font-family:'Fraunces',serif; font-size:38px; color:var(--teal-deep); font-weight:600;}
+  .price-was{font-size:16px; color:var(--ink-soft); text-decoration:line-through;}
+  .price-off{display:inline-block; margin-top:2px; font-size:12.5px; font-weight:700; color:var(--coral-dark);}
+  .price-card .btn{width:100%; margin-top:20px;}
+  .price-fine{margin-top:36px; text-align:center; font-size:13px; color:var(--ink-soft);}
+
+  /* -------- trust / return -------- */
+  .trust{padding:0 0 90px;}
+  .trust-inner{
+    max-width:var(--maxw); margin:0 auto; padding:0 24px;
+  }
+  .trust-card{
+    background:var(--teal-deep);
+    border-radius:var(--radius-lg);
+    padding:40px 44px;
+    display:grid;
+    grid-template-columns:repeat(3,1fr);
+    gap:28px;
+    color:var(--cream);
+  }
+  .trust-item{display:flex; gap:14px;}
+  .trust-item .t-icon{
+    width:40px;height:40px;border-radius:10px;
+    background:rgba(251,245,233,0.12);
+    display:flex;align-items:center;justify-content:center;
+    flex-shrink:0; font-size:18px;
+  }
+  .trust-item h3{color:var(--white); font-size:16px;}
+  .trust-item p{margin-top:6px; font-size:13.6px; color:rgba(251,245,233,0.78);}
+
+  /* -------- faq -------- */
+  .faq{padding:90px 0; background:var(--cream-2);}
+  .faq-head{max-width:600px; margin:0 auto 40px; text-align:center;}
+  .faq-head h2{font-size:33px;}
+  .faq-list{max-width:780px; margin:0 auto;}
+  .faq-item{
+    background:var(--white);
+    border:1px solid var(--line);
+    border-radius:var(--radius-md);
+    margin-bottom:14px;
+    overflow:hidden;
+  }
+  .faq-q{
+    width:100%;
+    background:none; border:none; cursor:pointer;
+    padding:20px 24px;
+    display:flex; align-items:center; justify-content:space-between; gap:16px;
+    text-align:left;
+    font-family:'Figtree',sans-serif; font-weight:700; font-size:16px; color:var(--teal-deep);
+  }
+  .faq-q .plus{
+    width:26px;height:26px;border-radius:50%;
+    border:1.5px solid var(--teal-deep);
+    display:flex;align-items:center;justify-content:center;
+    flex-shrink:0; font-size:15px; color:var(--teal-deep);
+    transition:transform .25s ease;
+  }
+  .faq-item.open .faq-q .plus{transform:rotate(45deg);}
+  .faq-a{
+    max-height:0;
+    overflow:hidden;
+    transition:max-height .3s ease;
+  }
+  .faq-a-inner{padding:0 24px 20px; font-size:14.8px; color:var(--ink-soft);}
+  .faq-item.open .faq-a{max-height:260px;}
+
+  /* -------- final cta -------- */
+  .final-cta{
+    padding:100px 0;
+    background:linear-gradient(160deg, var(--teal-deep), #143733);
+    color:var(--cream);
+    text-align:center;
+  }
+  .final-cta h2{color:var(--white); font-size:38px; max-width:640px; margin:0 auto;}
+  .final-cta p{margin:20px auto 0; max-width:520px; color:rgba(251,245,233,0.82); font-size:17px;}
+  .final-cta .btn{margin-top:34px;}
+  .final-cta .btn-primary{background:var(--coral);}
+
+  /* -------- footer -------- */
+  footer{padding:44px 0 34px; background:#17332F; color:rgba(251,245,233,0.72);}
+  .footer-top{display:flex; justify-content:space-between; gap:24px; flex-wrap:wrap; padding-bottom:26px; border-bottom:1px solid rgba(251,245,233,0.14);}
+  .footer-brand{font-family:'Fraunces',serif; color:var(--white); font-size:18px;}
+  .footer-links{display:flex; gap:22px; flex-wrap:wrap; font-size:13.5px;}
+  .footer-links a{text-decoration:none; opacity:0.85;}
+  .footer-links a:hover{opacity:1; text-decoration:underline;}
+  .disclosure{font-size:12.5px; line-height:1.7; margin-top:24px; max-width:900px; color:rgba(251,245,233,0.6);}
+  .copyright{margin-top:18px; font-size:12px; color:rgba(251,245,233,0.45);}
+
+  /* -------- responsive -------- */
+  @media (max-width:980px){
+    .hero-grid, .solution-grid, .how-grid{grid-template-columns:1fr; gap:38px;}
+    .solution-grid{direction:ltr;}
+    .problem-grid{grid-template-columns:1fr 1fr;}
+    .tray{grid-template-columns:1fr 1fr;}
+    .proof-grid{grid-template-columns:1fr;}
+    .price-grid{grid-template-columns:1fr;}
+    .trust-card{grid-template-columns:1fr; gap:22px;}
+  }
+  @media (max-width:640px){
+    body{font-size:16px;}
+    .hero{padding:38px 0 30px;}
+    .hero h1{font-size:32px;}
+    .problem h2, .solution h2, .how h2, .benefits-head h2, .proof h2, .pricing-head h2, .faq-head h2{font-size:26px;}
+    .final-cta h2{font-size:28px;}
+    .problem-grid{grid-template-columns:1fr;}
+    .tray{grid-template-columns:1fr;}
+    .topbar .btn span.long{display:none;}
+    .proof-top{align-items:flex-start;}
+    .rating-box{padding:16px 20px;}
+    .trust-card{padding:30px 24px;}
+    .footer-top{flex-direction:column;}
+  }
+</style>
+</head>
+<body>
+
+<!-- ============ TOP BAR ============ -->
+<div class="topbar">
+  <div class="wrap">
+    <div class="brand"><span class="mark">FL</span> Feeding Littles Lunches</div>
+    <a class="btn btn-primary" href="https://amzn.to/4wNU2Vn" target="_blank" rel="noopener sponsored"><span class="long">View on&nbsp;</span>Amazon</a>
+  </div>
+</div>
+
+<!-- ============ HERO ============ -->
+<section class="hero">
+  <div class="wrap hero-grid">
+    <div class="fade-in">
+      <span class="eyebrow"><span class="dot"></span> NYT Bestselling Authors</span>
+      <h1>Lunches your kids will actually eat — packed in <span class="accent">under 5 minutes</span>, not 45.</h1>
+      <p class="sub">75+ realistic, no-stress lunch and snack ideas for kids of all ages — built from simple formulas, not fussy recipes, by a registered dietitian and a pediatric feeding specialist.</p>
+      <div class="cta-row">
+        <a class="btn btn-primary" href="https://amzn.to/4wNU2Vn" target="_blank" rel="noopener sponsored">See Feeding Littles Lunches on Amazon</a>
+        <span class="btn-sub">Paperback &amp; spiral-bound available · Ships with Prime</span>
+      </div>
+      <div class="badges-row">
+        <div class="badge-item"><span class="stars">★★★★★</span> 4.7/5 · 672 ratings</div>
+        <div class="badge-item">#1 Best Seller in Cooking for Kids</div>
+        <div class="badge-item">240 pages · Rodale Books</div>
+      </div>
+    </div>
+    <div class="fade-in">
+      <div class="media-ph r169" style="border:none;background:#000;">
+        <iframe width="100%" height="100%" style="position:absolute;inset:0;border:0;border-radius:var(--radius-lg);" src="https://www.youtube.com/embed/Cz4SuRNtMv0" title="Feeding Littles Lunches" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ PROBLEM ============ -->
+<section class="problem">
+  <div class="wrap fade-in">
+    <span class="eyebrow" style="background:rgba(244,194,74,0.16); color:var(--yellow);"><span class="dot"></span> The lunch box grind</span>
+    <h2>Packing lunch shouldn't feel like a second job every single morning.</h2>
+    <p class="lede">Between picky eaters, allergy swaps, and the pressure to make it "look cute," lunch prep quietly becomes one of the most dreaded parts of parenting — and most of it comes back home untouched anyway.</p>
+    <div class="problem-grid">
+      <div class="problem-card">
+        <span class="num">The scroll trap</span>
+        <p>Pinterest-perfect bento boxes set an impossible bar, and copying them takes far more time and cleanup than any parent has before 7am.</p>
+      </div>
+      <div class="problem-card">
+        <span class="num">The picky-eater wall</span>
+        <p>You pack something balanced, it comes home barely touched, and you're back to square one with zero new ideas for tomorrow.</p>
+      </div>
+      <div class="problem-card">
+        <span class="num">The decision fatigue</span>
+        <p>Allergies, toddler-sized portions, and "no repeats" rules pile up until every lunch box decision feels harder than it should be.</p>
+      </div>
+      <div class="problem-card">
+        <span class="num">The Sunday-night scramble</span>
+        <p>Without a formula to fall back on, planning a whole week of lunches turns into a last-minute grocery run and a stressed-out weekend.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ SOLUTION ============ -->
+<section class="solution">
+  <div class="wrap solution-grid">
+    <div class="fade-in">
+      <div class="media-ph r11" style="border:none;">
+        <img src="https://i.ibb.co/0y0PKKt3/grok-image-4911fb15-c36b-4a8b-a083-b59a0fd4a2b6.jpg" alt="Feeding Littles Lunches — sample lunch box grid" style="width:100%;height:100%;object-fit:cover;border-radius:var(--radius-lg);">
+      </div>
+    </div>
+    <div class="fade-in">
+      <span class="eyebrow alt"><span class="dot"></span> Meet the book</span>
+      <h2>A no-stress lunch formula from the founders of Feeding Littles.</h2>
+      <p class="lede">Feeding Littles Lunches skips the fussy recipes entirely. Instead, it hands you simple, repeatable assembly formulas — protein, carb, fruit, veggie, and a fun extra — so you can build a balanced lunch in minutes using whatever's already in your fridge and pantry.</p>
+      <div class="authors-line">
+        <div class="author-pill">
+          <span class="avatar">M</span>
+          <span>
+            <span class="a-name">Megan McNamee, MPH, RDN</span>
+            <span class="a-title">Registered dietitian nutritionist</span>
+          </span>
+        </div>
+        <div class="author-pill">
+          <span class="avatar">J</span>
+          <span>
+            <span class="a-name">Judy Delaware, OTR/L, CLC</span>
+            <span class="a-title">Pediatric feeding &amp; sensory specialist</span>
+          </span>
+        </div>
+      </div>
+      <div class="quote-block">
+        <p>"Feeding Littles Lunches offers simple, easy-to-assemble ideas that you can pack in just a few minutes, utilizing leftovers, simple foods, and convenience items. Don't make it complicated."</p>
+        <div class="who">— Megan McNamee, MPH, RDN &amp; Judy Delaware, OTR/L, CLC, co-authors</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ BENEFITS ============ -->
+<section class="benefits">
+  <div class="wrap">
+    <div class="benefits-head fade-in">
+      <span class="eyebrow"><span class="dot"></span> What's inside</span>
+      <h2>Six reasons lunch gets easier once this book is on your counter.</h2>
+      <p>Every idea in the book is built around what the authors say real families actually need — not another impossible standard to live up to.</p>
+    </div>
+    <div class="tray fade-in">
+      <div class="cell">
+        <div class="icon">🍽️</div>
+        <h3>75+ realistic lunch &amp; snack ideas</h3>
+        <p>A full library of combinations for kids of all ages — no niche ingredients or hour-long prep required.</p>
+      </div>
+      <div class="cell">
+        <div class="icon">✋</div>
+        <h3>No recipes — just formulas</h3>
+        <p>Quick assembly ideas instead of step-by-step recipes, so you can adapt on the fly with whatever's on hand.</p>
+      </div>
+      <div class="cell">
+        <div class="icon">👶</div>
+        <h3>Toddler modifications</h3>
+        <p>Guidance for adapting the same lunch ideas down for younger siblings and picky toddler appetites.</p>
+      </div>
+      <div class="cell">
+        <div class="icon">🗓️</div>
+        <h3>Built-in meal plans</h3>
+        <p>Ready-made planning support so you're not reinventing the lunch box from scratch every single week.</p>
+      </div>
+      <div class="cell">
+        <div class="icon">🌾</div>
+        <h3>Allergy swaps</h3>
+        <p>The authors note the book is modified for nine of the most common allergens, plus tips for picky eaters.</p>
+      </div>
+      <div class="cell">
+        <div class="icon">🙂</div>
+        <h3>No complicated shapes</h3>
+        <p>No candy eyeballs, no character-shaped sandwiches — just food kids will actually recognize and eat.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ HOW IT WORKS ============ -->
+<section class="how">
+  <div class="wrap how-grid">
+    <div class="fade-in">
+      <span class="eyebrow alt"><span class="dot"></span> How it works</span>
+      <h2>From open book to packed lunch box, in four simple moves.</h2>
+      <p class="lede">The whole system is designed around speed and repeatability, so mornings stop being the hardest part of your day.</p>
+      <div class="format-note">
+        <span class="format-pill">📖 Paperback · 240 pages</span>
+        <span class="format-pill">🌀 Spiral-bound option</span>
+        <span class="format-pill">🇬🇧 English</span>
+      </div>
+    </div>
+    <div class="steps fade-in">
+      <div class="step">
+        <span class="s-num">1</span>
+        <div>
+          <h3>Open to any lunch idea</h3>
+          <p>Flip to a page — there's no cover-to-cover reading required and nothing to plan days in advance.</p>
+        </div>
+      </div>
+      <div class="step">
+        <span class="s-num">2</span>
+        <div>
+          <h3>Follow the simple formula</h3>
+          <p>Each idea is built from a protein, a carb, a fruit or veggie, and a fun extra — mix and match with what you have.</p>
+        </div>
+      </div>
+      <div class="step">
+        <span class="s-num">3</span>
+        <div>
+          <h3>Swap for your kid</h3>
+          <p>Use the allergy swaps and toddler modifications to make the same idea work for every kid at your table.</p>
+        </div>
+      </div>
+      <div class="step">
+        <span class="s-num">4</span>
+        <div>
+          <h3>Pack it and repeat</h3>
+          <p>Lean on leftovers, pantry staples, and convenience items so lunch comes together in just a few minutes — all year long.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ SOCIAL PROOF ============ -->
+<section class="proof">
+  <div class="wrap">
+    <div class="proof-top fade-in">
+      <div>
+        <span class="eyebrow"><span class="dot"></span> Real reader feedback</span>
+        <h2>Parents say it takes the guesswork out of lunch.</h2>
+      </div>
+      <div class="rating-box">
+        <div>
+          <div class="score">4.7</div>
+          <div class="stars">★★★★★</div>
+        </div>
+        <div class="count">Based on 672 Amazon<br>ratings · 86% are 5-star</div>
+      </div>
+    </div>
+    <div class="proof-grid fade-in">
+      <div class="review-card">
+        <div class="stars">★★★★★</div>
+        <h3>Real lunches for real families</h3>
+        <p>One reviewer says they'd bought several lunchbox books before, but this is the first one built around suggestions and combinations their picky kindergartner would actually eat — not just recipes that looked good in photos.</p>
+        <div class="meta">Verified Amazon Purchase</div>
+      </div>
+      <div class="review-card">
+        <div class="stars">★★★★★</div>
+        <h3>Written for selective eaters</h3>
+        <p>A parent of picky eaters describes the book as judgment-free, saying it helped them understand their kids' food preferences instead of fighting them, with practical sections on the school cafeteria environment.</p>
+        <div class="meta">Verified Amazon Purchase</div>
+      </div>
+      <div class="review-card">
+        <div class="stars">★★★★★</div>
+        <h3>What customers say</h3>
+        <p>Amazon's review summary describes the book as a valuable, approachable resource with helpful lunch ideas and appealing photos — though some note it leans more on ideas and formulas than traditional recipes.</p>
+        <div class="meta">Amazon "Customers say" summary</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ PRICING ============ -->
+<section class="pricing">
+  <div class="wrap">
+    <div class="pricing-head fade-in">
+      <span class="eyebrow alt"><span class="dot"></span> Get your copy</span>
+      <h2>Choose the format that fits your kitchen.</h2>
+      <p>Pricing and discounts shown below reflect what was listed on Amazon at the time this page was built and are subject to change — always confirm current pricing on the official listing.</p>
+    </div>
+    <div class="price-grid fade-in">
+      <div class="price-card featured">
+        <h3>Paperback</h3>
+        <div class="price-row">
+          <span class="price-now">$24.58</span>
+          <span class="price-was">$26.99</span>
+        </div>
+        <span class="price-off">Listed at 9% off</span>
+        <a class="btn btn-primary" href="https://amzn.to/4wNU2Vn" target="_blank" rel="noopener sponsored">Check Price on Amazon</a>
+      </div>
+      <div class="price-card">
+        <h3>Spiral-Bound</h3>
+        <div class="price-row">
+          <span class="price-now">$29.99</span>
+        </div>
+        <span class="price-off">Lay-flat format for the kitchen counter</span>
+        <a class="btn btn-outline" href="https://amzn.to/4wNU2Vn" target="_blank" rel="noopener sponsored">Check Price on Amazon</a>
+      </div>
+    </div>
+    <p class="price-fine">Free delivery is available with Prime; other delivery windows and used/new offers may also appear on the listing.</p>
+  </div>
+</section>
+
+<!-- ============ TRUST / RETURN POLICY ============ -->
+<section class="trust">
+  <div class="trust-inner fade-in">
+    <div class="trust-card">
+      <div class="trust-item">
+        <div class="t-icon">🔄</div>
+        <div>
+          <h3>Amazon's standard return policy</h3>
+          <p>Listed as eligible for free 30-day return or replacement through Amazon at the time this page was built.</p>
+        </div>
+      </div>
+      <div class="trust-item">
+        <div class="t-icon">🚚</div>
+        <div>
+          <h3>Prime shipping available</h3>
+          <p>Fast, free delivery for Prime members, plus standard delivery options shown at checkout.</p>
+        </div>
+      </div>
+      <div class="trust-item">
+        <div class="t-icon">🏆</div>
+        <div>
+          <h3>NYT bestselling authors</h3>
+          <p>Written by the co-authors of the New York Times bestseller "Feeding Littles and Beyond."</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ FAQ ============ -->
+<section class="faq">
+  <div class="wrap">
+    <div class="faq-head fade-in">
+      <span class="eyebrow"><span class="dot"></span> Questions parents ask</span>
+      <h2>Before you add it to your cart</h2>
+    </div>
+    <div class="faq-list fade-in">
+      <div class="faq-item">
+        <button class="faq-q">Is this a recipe book? <span class="plus">+</span></button>
+        <div class="faq-a"><div class="faq-a-inner">Not in the traditional sense. The authors describe it as a book of quick, easy-to-assemble lunch and snack ideas and formulas rather than step-by-step recipes — built for speed over cooking instruction.</div></div>
+      </div>
+      <div class="faq-item">
+        <button class="faq-q">What ages is this book suitable for? <span class="plus">+</span></button>
+        <div class="faq-a"><div class="faq-a-inner">The listing describes ideas for "kids of all ages," and includes specific toddler modifications so younger siblings can eat modified versions of the same lunches.</div></div>
+      </div>
+      <div class="faq-item">
+        <button class="faq-q">Does it help with picky eaters or food allergies? <span class="plus">+</span></button>
+        <div class="faq-a"><div class="faq-a-inner">Yes — the book description highlights tips for picky eaters and modifications for nine of the most common food allergens. Reader reviews specifically mention it being useful for selective eaters.</div></div>
+      </div>
+      <div class="faq-item">
+        <button class="faq-q">What formats can I buy it in? <span class="plus">+</span></button>
+        <div class="faq-a"><div class="faq-a-inner">The book is available in paperback and spiral-bound formats. Spiral-bound is often preferred for cookbooks that need to lay flat on a counter. Details available on the official product page.</div></div>
+      </div>
+      <div class="faq-item">
+        <button class="faq-q">How long is the book and who publishes it? <span class="plus">+</span></button>
+        <div class="faq-a"><div class="faq-a-inner">It's 240 pages, published by Rodale Books, written in English. It's currently ranked #1 in Cooking for Kids on Amazon.</div></div>
+      </div>
+      <div class="faq-item">
+        <button class="faq-q">What if it's not the right fit for my family? <span class="plus">+</span></button>
+        <div class="faq-a"><div class="faq-a-inner">At the time this page was built, the listing showed eligibility for a free 30-day return or replacement through Amazon. Return eligibility can change, so confirm current terms on the official product page before purchasing.</div></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ FINAL CTA ============ -->
+<section class="final-cta">
+  <div class="wrap fade-in">
+    <h2>Give tomorrow's lunch box a five-minute plan.</h2>
+    <p>75+ no-stress ideas, built by a dietitian and a feeding specialist, for kids who don't always eat what looks good on Pinterest.</p>
+    <a class="btn btn-primary" href="https://amzn.to/4wNU2Vn" target="_blank" rel="noopener sponsored">Get Feeding Littles Lunches on Amazon</a>
+  </div>
+</section>
+
+<!-- ============ FOOTER ============ -->
+<footer>
+  <div class="wrap">
+    <div class="footer-top">
+      <div class="footer-brand">Feeding Littles Lunches</div>
+      <div class="footer-links">
+        <a href="https://amzn.to/4wNU2Vn" target="_blank" rel="noopener sponsored">View on Amazon</a>
+        <a href="#top">Back to top</a>
+      </div>
+    </div>
+    <p class="disclosure">This page contains affiliate links. If you make a purchase through links on this page, we may earn a commission at no additional cost to you. All product details, pricing, and offers are subject to change — please verify current information on the official Feeding Littles Lunches page before purchasing.</p>
+    <p class="copyright">This is an independently created fan/affiliate page and is not officially affiliated with or endorsed by the book's authors or publisher.</p>
+  </div>
+</footer>
+
+<script>
+  // scroll fade-in
+  const faders = document.querySelectorAll('.fade-in');
+  const io = new IntersectionObserver((entries)=>{
+    entries.forEach(e=>{
+      if(e.isIntersecting){ e.target.classList.add('is-visible'); io.unobserve(e.target); }
+    });
+  }, {threshold:0.15});
+  faders.forEach(f=>io.observe(f));
+
+  // faq accordion
+  document.querySelectorAll('.faq-item').forEach(item=>{
+    item.querySelector('.faq-q').addEventListener('click', ()=>{
+      const isOpen = item.classList.contains('open');
+      document.querySelectorAll('.faq-item.open').forEach(o=>{ if(o!==item) o.classList.remove('open'); });
+      item.classList.toggle('open', !isOpen);
+    });
+  });
+</script>
+
+</body>
+</html>
